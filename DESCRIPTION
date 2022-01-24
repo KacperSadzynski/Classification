@@ -5,9 +5,14 @@ Version: 0.1.0
 Author: Kacper Sądzyński, Kamil Chibowski
 Maintainer: <kacper.sadzynski@gmail.com>
 Description: The project aims to compare different classification methods.
-License: GPL-3
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Imports: Amelia, corrplot, caTools, e1071, class, Hmisc, gmodels, tidyverse, caret, nnet, devtools
-Suggests: dplyr
+Suggests: 
+    testthat (>= 3.0.0),
+    dplyr
 RoxygenNote: 7.1.2
+Config/testthat/edition: 3
+URL: https://github.com/KacperSadzynski/Classification
+BugReports: https://github.com/KacperSadzynski/Classification/issues
